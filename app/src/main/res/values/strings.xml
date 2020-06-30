@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="pin">Pin</string>
+    <string name="create_new_pin">Create New Pin</string>
+    <string name="enter_pin_again">Enter pin again</string>
+    <string name="go">GO</string>
+    <string name="change_pin">Change Pin</string>
+    <string name="my_notes">My Notes</string>
+    <string name="new_note">New Note</string>
+    <string name="new_title">Title already exist. Please enter a new title.</string>
+    <string name="enter_title">Enter note title</string>
+    <string name="enter_note">Enter your notes.</string>
+    <string name="new_website">New Website</string>
+</resources>

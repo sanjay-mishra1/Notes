@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/title"
+        android:hint="Title"
+        android:textSize="16sp"
+        android:paddingStart="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+    android:layout_width="match_parent"
+    android:padding="22dp"
+    android:hint="Enter Url"
+    android:inputType="textUri"
+    android:id="@+id/editUrl"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="80dp"
+        android:text="Add"
+        android:textColor="#fff"
+        android:paddingEnd="20dp"
+        android:paddingStart="5dp"
+        android:id="@+id/button"
+        android:onClick="webviewBt"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_alignParentEnd="true"
+        android:layout_height="60dp"/>
+    </RelativeLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/webview"
+        android:layout_height="match_parent"/>
+</LinearLayout>
